@@ -26,6 +26,12 @@ body {
   border-radius: 6px;
   padding: 9px 13px 9px 11px;
   margin: 15px 30px;
+  width: 115px;
+  height: 34px;
+}
+
+.info--button-container {
+  display: flex;
 }
 
 .info--linkedin-button {
@@ -51,12 +57,13 @@ p {
 }
 
 .info--container {
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #1A1B21;
+  width: 315px;
 }
 
 .info--headshot {
@@ -65,12 +72,16 @@ p {
 }
 
 .about--container, .interests--container {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 315px;
   background-color: #1A1B21;
+}
+
+div .description--header {
+  margin: 5px 10px;
 }
 
 .footer--container {
