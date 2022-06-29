@@ -8,8 +8,8 @@ function Info() {
         <h4 className='info--title'>Frontend Developer</h4>
         <h5 className='info--title'>github.com/pjleclair</h5>
         <div className='info--button-container'>
-            <button className='info--email-button'>Email</button>
-            <button className='info--linkedin-button'>LinkedIn</button>
+            <button className='info--email-button'> Email</button>
+            <button className='info--linkedin-button'> LinkedIn</button>
         </div>
     </div>
   );
